@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+nav {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    height: 969px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #1ed760;
+}
+
+.nav-item{
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+
+.headline {
+    font-size: 156px;
+    font-weight: 900;
+    color: #1ed760;
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px;
+}
+
+.headline-first{
+    position: relative;
+    left: -2.5em;
+}
+
+.sub-headline{
+    color: #1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.button-area{
+    text-align: center;
+}
+
+.button-style {
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+
+.button-style:hover{
+    transform: scale(1.07);
+    background-color: #2de26d;
+}
+
+.footer-container{
+    width: 1170px;
+    border: 1px solid red;
+}
+.first {
+    border: 1px solid blue;
+    display:flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.second {
+    border: 1px solid red;
+    width: 40%;
+    
+
+}
+.footer-menu{
+    border: 1px solid yellow;
+    display: flex;
+    
+    height: 346px;
+    
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+.name{
+    color: #919496;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+
+.footer-menu-item {
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+  }
